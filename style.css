@@ -1,0 +1,74 @@
+body {margin: 0;}
+
+.main {display: flex; flex-direction: column;}
+
+.one {display: flex; flex-direction: column; gap: 2em;
+background-color: mediumorchid; padding-bottom: 30px;}
+
+.header {background-color: purple; color: white; display: flex;
+justify-content: space-between; padding-left: 4em;
+padding-right: 4em; padding-bottom: 10px; padding-top: 10px;}
+
+.left {display: flex; gap: 1em; font-size: 22px; font-weight: 700;
+align-items: center;}
+
+a {color: white; text-decoration: none; font-size: 20px;}
+
+.right {display: flex; gap: 1em; align-items: center;}
+
+.logo {width: 3em; height: 3em;}
+
+.belowheader {display: flex; justify-content: space-evenly; gap: 1em;
+align-items: center;}
+
+.bh1 {display: flex; flex-direction: column; align-items: left;
+max-width: 35%; color: white; font-size: 20px; margin-top: -30px;}
+
+.herotext {font-weight: 900; font-size: 48px; color: white;}
+
+.herosubtext {margin-top: -12px; padding-bottom: 2px;}
+
+.believebutton {color: white; background-color: purple; padding: 10px;
+font-size: 18px;}
+
+.lolimage {width: 400px; height: 300px;}
+
+.two {display: flex; flex-direction: column; align-items: center;
+background-color: purple; padding: 10px; color: white;
+font-weight: 900;}
+
+.skills {display: flex; gap: 2em; width: auto;}
+
+.example {display: flex; flex-direction: column; align-items: center;
+font-size: 20px; max-width: 200px; text-align: center;}
+
+.skillimage {max-width: 200px; height: 13em;} 
+
+.three {display: flex; flex-direction: column; background-color: mediumorchid; 
+    padding: 60px;}
+
+.quoteandauthor {display: flex; flex-direction: column;}
+
+blockquote {font-size: 36px; max-width: 50%; font-weight: 300;
+    margin: 0 auto; color: white;}
+
+.author {display: flex; justify-content: right; margin-right: 18%;
+color: white; font-size: 20px;}
+
+.four {display: flex; padding: 50px; background-color: purple;
+justify-content: center;}
+
+.containerfour {background-color: grey; padding-left: 20px;
+    padding-right: 20px; width: 80%; display: flex; justify-content: space-evenly;}
+
+.fourone {display: flex; flex-direction: column; color: white;
+font-size: 20px;}
+
+.fourtwo {display: flex; align-items: center; justify-content: right;}
+
+.newsletter {margin-top: -8px; padding-bottom: 5px;}
+
+.signupbutton {width: 8em; padding: 6px;}
+
+footer {text-align: center; font-weight: 700; background-color: darkorchid;
+padding: 22px; color: white;}
